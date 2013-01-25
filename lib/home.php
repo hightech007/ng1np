@@ -40,14 +40,14 @@ vanstandardnom dizajnu, brzini, sigurnosti ...
 
 <p>
 Support!<br />
-Forum: <a href="http://webserveri.info/forum">forum #webserveri</a><br />Neke od delatnosti koje zajednica obuhvata su: 
-Unix, GNU/Linux, Serveri, Programiranje, Dizajn, Web razvoj... Naša ideja je da običnom korisniku olakšamo i 
-približimo sastave otvorenog koda kao i da ponudimo podršku u sferi našeg znanja. Ali kao što i samo ime sajta kaže, 
-pretežno stavljamo akcenat na servere i na njihovu implementaciju u sisteme otvorenog koda.
+Forum: <a href="http://webserveri.info/forum">webserveri.info/forum</a><br />Neke od delatnosti koje zajednica 
+obuhvata su: Unix, GNU/Linux, Serveri, Programiranje, Dizajn, Web razvoj... Naša ideja je da običnom korisniku 
+olakšamo i približimo sastave otvorenog koda kao i da ponudimo podršku u sferi našeg znanja. Ali kao što i samo 
+ime sajta kaže, pretežno stavljamo akcenat na servere i na njihovu implementaciju u sisteme otvorenog koda.
 <br />
-Twitter: <a href="https://twitter.com/webserveri">webserveri #twitter</a><br />
-RSS: <a href="http://webserveri.info/rss/januar2013/rss.rss">rss #webserveri</a><br />
-IRC: <a href="http://webchat.freenode.net/?channels=webserveri">#webserveri @ irc.freenode.net</a>
+Twitter: <a href="https://twitter.com/webserveri">webserveri@twitter</a><br />
+RSS: <a href="http://webserveri.info/rss/januar2013/rss.rss">rss@webserveri</a><br />
+IRC: <a href="http://webchat.freenode.net/?channels=webserveri">webserveri@irc.freenode.net</a>
 </p>
 
 </section>
