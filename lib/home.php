@@ -50,7 +50,7 @@ RSS: <a href="http://webserveri.info/rss/januar2013/rss.rss">rss@webserveri</a><
 IRC: <a href="http://webchat.freenode.net/?channels=webserveri">webserveri@irc.freenode.net</a>
 </p>
 
-</section>
+
 </div>
 
 
