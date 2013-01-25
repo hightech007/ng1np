@@ -28,7 +28,6 @@
 
 <header>
 
-<div class="main">
 <!-- dugmici -->
               
 	<a href="?q=nginp"><div class="dugme dugme-iko" id="dugme"><img src="media/png/engine_up.png" />
@@ -43,7 +42,6 @@
                   <div class="maska"><h2>RSS</div></a>
         </div>
        
-</div>
 
 </header>
 
