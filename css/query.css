@@ -12,14 +12,19 @@
 }
 
 @media screen and (max-width: 480px) {
+	body { font-size: 13px; width: 98%; padding: 1%; }
+	#dugme {width: 49px; height: 49px;}
+	.dugme {width: 49px; height: 49px; }
+	.dugme .maska,.dugme .sadrzaj {width: 49px; height: 49px;}
+	.dugme img {display: block; position: relative; width: 49px; height: 49px;}
+}
+
+
+@media screen and (max-width: 360px) {
 	body { font-size: 11px; width: 98%; padding: 1%; }
 	#dugme {width: 32px; height: 32px;}
 	.dugme {width: 32px; height: 32px; font-size: 9px;}
 	.dugme .maska,.dugme .sadrzaj {width: 32px; height: 32px;}
 	.dugme img {display: block; position: relative; width: 32px; height: 32px;}
-}
-
-
-@media screen and (max-width: 360px) {
 	
 }
