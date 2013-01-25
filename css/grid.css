@@ -1,0 +1,39 @@
+.grid { position: relative; width: 800px; margin: 0 auto; padding: 0; margin-top: 10px;}
+.grid .kol {float: left; display: inline;}
+.grid .cetiri.kol {width: 200px; float: left; text-align: left;  }
+.grid .pet.kol {width: 250px;}
+.grid .sest.kol {width: 300px;}
+.grid .sedam.kol {width: 350px; }
+.grid .osam.kol {width: 400px; }
+.grid .devet.kol {width: 450px;}
+.grid .deset.kol {width: 500px;}
+.grid .jedanest.kol {width: 550px;}
+.grid .dvanest.kol {width: 598px; float: right;background: #212121; border: 1px solid #414141;}
+.grid .trinest.kol {width: 650px;}
+.grid .cetrnest.kol {width: 700px;}
+.grid .petnest.kol {width: 750px; }
+.grid .sesnest.kol {width: 800px; }
+.grid .sedamnest.kol {width: 850px; }
+.grid .osamnest.kol {width: 900px; }
+.grid .devetnest.kol {width: 950px; }
+.grid .dvadeset.kol {width: 1000px; }
+
+
+.grid .cetiri.kol nav{height: auto; float: right; color: white;  text-align: left; width: 100%; text-align: center;}
+
+.grid .cetiri.kol nav ul{list-style-type: none;}
+.grid .cetiri.kol nav ul li { display: block; border: 1px solid #414141; width: 100%; float: left; margin-top: 2%;}
+.grid .cetiri.kol nav ul li a {width: 96%; padding: 2%; float: left; background: #212121;}
+.grid .cetiri.kol nav ul li a:hover {background: black;}
+
+.grid .dvanest.kol p {width: 94%; padding: 3%; color: white;}
+.grid .dvanest.kol h2 {width: 94%; padding: 3%; color: yellow; text-align: center;}
+.grid .dvanest.kol h3 {width: 94%; padding: 3%; color: lightblue; text-align: center;}
+.grid .dvanest.kol ul {list-style-type: none; padding: 1%;}
+.grid .dvanest.kol code {width: 98%; border: 1px solid #17f118; padding: 1%; float: left; background: black; color: #17f118;}
+
+.grid .dvanest.kol a { text-decoration: none; color: #17f118; text-shadow: 0.2em 0.2em 0.05em #000;}
+.grid .dvanest.kol a:hover {color: orange; }
+
+
+

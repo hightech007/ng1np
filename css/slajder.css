@@ -1,0 +1,47 @@
+.sholder {height: 260px; color: white; text-align:left; font-size: 12px; padding: 1%;}
+
+.sholder a {color:blue; text-decoration:underline;}
+
+
+.slajder {margin:0px; padding:0px 0px; width: 240px; height: 240px; position:relative;}
+
+.slajder li {list-style:none; margin: 0px 0px; padding: 0px 0px;}
+
+.slajder li input + label {position:absolute;bottom: 5px;left: 0px;z-index:999;font: bold 11px/16px Arial,Sans-Serif;background-color: black;
+color: white; padding: 0px 0px; width: 28px; text-align:center; cursor:pointer; }
+
+.slajder li:nth-child(2) label {left:32px;}
+.slajder li:nth-child(3) label {left:64px; }
+.slajder li:nth-child(4) label {left:96px; }
+.slajder li:nth-child(5) label {left:128px; }
+.slajder li:nth-child(6) label {left:100px;}
+.slajder li:nth-child(7) label {left:118px;}
+.slajder li:nth-child(8) label {left:136px;}
+.slajder li:nth-child(9) label {left:154px;}
+
+.slajder li img {border:none; outline:none; position:absolute; top: 2%; left: 50%; width: 0; height: 0; visibility:hidden;
+opacity:0; -webkit-transition:all 2s ease-in-out; -moz-transition:all 2s ease-in-out; -ms-transition:all 2s ease-in-out;
+-o-transition:all 2s ease-in-out; transition:all 2s ease-in-out; -webkit-transform:rotate(0deg) scale(0.320) skew(0deg) translate(10px);
+-moz-transform:rotate(0deg) scale(0.320) skew(0deg) translate(10px); -ms-transform:rotate(0deg) scale(0.320) skew(0deg) translate(10px); 
+-o-transform:rotate(0deg) scale(0.320) skew(0deg) translate(10px); transform:rotate(0deg) scale(0.320) skew(0deg) translate(10px); }
+
+.slajder a {
+  text-decoration:none !important;
+}
+
+.slajder li a span {cursor:default; display:block; position:absolute; right:0px; bottom:0px; left:0px; border-top: 1px solid #414141; 
+font:normal 11px/26px Arial,Sans-Serif; color: orange; padding:0px 0px; text-align:right; opacity:0; viibility:hidden; 
+-webkit-transition:all 2s ease-in-out; -moz-transition:all 2s ease-in-out; -ms-transition:all 2s ease-in-out; -o-transition:all 2s ease-in-out;
+transition:all 2s ease-in-out;}
+
+.slajder li input:checked + label {background-color: green; color:white;}
+
+.slajder li input:checked ~ img,
+.slajder li input:checked ~ a img {top:0%; left:0%; width:220px; height:220px; visibility:visible;
+-webkit-transform:rotate(0deg) scale(0.760) skew(0deg) translate(10px); -moz-transform:rotate(0deg) scale(0.760) skew(0deg) translate(10px); 
+-ms-transform:rotate(0deg) scale(0.760) skew(0deg) translate(10px);  -o-transform:rotate(0deg) scale(0.760) skew(0deg) translate(10px); 
+transform:rotate(0deg) scale(0.760) skew(0deg) translate(10px); opacity:1; z-index: 99;}
+
+.slajder li input:checked ~ a span {opacity:1; z-index:100;}
+
+.slajder input {display:none;}
