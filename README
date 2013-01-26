@@ -7,7 +7,9 @@ Ngin^UP(ng1np) je engine otvorenog koda, baziran na efikasnosti, vanstandardnom 
 
 Napomena
 ========
-etc (ng1np/etc/) folder je konfiguracija za linux sistem i servise ... uzivajte!!!
+1. etc (ng1np/etc/) folder je konfiguracija za linux sistem i servise ... uzivajte!!!
+2. nginx verzija (nginx version: nginx/0.7.67) Debian stable.
+
 
 Generalno
 =========
