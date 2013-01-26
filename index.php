@@ -29,7 +29,6 @@
 <section class="holder">
 
 <header>
-
 <!-- dugmici -->
               
 	<a href="?q=nginp"><div class="dugme dugme-iko" id="dugme"><img src="media/png/engine_up.png" />
