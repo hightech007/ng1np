@@ -5,11 +5,11 @@ http://webserveri.info ---> pokreće ng1np
 [ng1np ®]
 =========
 Ngin^UP(ng1np) je engine otvorenog koda, baziran na efikasnosti, vanstandardnom dizajnu, brzini, sigurnosti, 
-fleksibilnosti, jednostavnosti ...
+fleksibilnosti, jednostavnosti...
 
 Karakteristike
 ==============
-1. "lightweight"
+1. „Lightweight“
 2. Jednostavan
 3. U razvoju
 4. Brz
@@ -19,8 +19,8 @@ Karakteristike
 
 Napomena
 ========
-1. etc (ng1np/etc/) folder je konfiguracija za linux sistem i servise ... uzivajte!!!
-2. nginx verzija (nginx version: nginx/0.7.67) Debian stable.
+1. Etc (ng1np/etc/) folder je konfiguracija za linux sistem i servise... uživajte!!!
+2. Nginx verzija (nginx version: nginx/0.7.67) Debian stable.
 
 Generalno
 =========
