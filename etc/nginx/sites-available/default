@@ -1,0 +1,44 @@
+server {
+
+        listen   80; ## listen for ipv4
+        listen   [::]:80 default ipv6only=on; ## listen for ipv6
+
+        client_max_body_size 20M;
+
+        root   /home/www/public;
+
+        server_name  localhost   hajtek.myftp.org;
+
+        access_log  /home/www/logs/nginx/localhost.access.log;
+
+        location / {
+                index  index.html index.htm  index.php;
+        }
+
+        location /doc {
+                root   /usr/share;
+                autoindex on;
+                allow 127.0.0.1;
+                deny all;
+        }
+
+        location /images {
+                root   /usr/share;
+                autoindex on;
+        }
+
+     location ~ \.php$ {
+                fastcgi_pass   127.0.0.1:9000;
+                fastcgi_index  index.php;
+                fastcgi_param  SCRIPT_FILENAME  /home/www/public$fastcgi_script_name;
+                include        fastcgi_params;
+        }
+
+        # deny access to .htaccess files, if Apache's document root
+        # concurs with nginx's one
+        #
+        location ~ /\.ht {
+                deny  all;
+        }
+}
+
