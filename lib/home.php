@@ -6,6 +6,7 @@
 vanstandardnom dizajnu, brzini, sigurnosti ... 
 </p>
 
+<!-- slajder bez js-a - cist css3 --->
 <section class="sholder">
 	<ul class="slajder">
 		<li>
@@ -37,6 +38,7 @@ vanstandardnom dizajnu, brzini, sigurnosti ...
 	</ul>
 	
 </section>
+<!-- kraj slajdera -->
 
 <p>
 Support!<br />

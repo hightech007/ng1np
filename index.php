@@ -1,4 +1,5 @@
 <?php if(extension_loaded('zlib')){ob_start('ob_gzhandler');} header("Content-type: text/html"); ?>
+
 <!DOCTYPE html>
 <html lang="sr">
 <head>
@@ -24,10 +25,10 @@
 
 <body>
 
+<!-- holder -->
 <section class="holder">
 
 <header>
-
 <!-- dugmici -->
               
 	<a href="?q=nginp"><div class="dugme dugme-iko" id="dugme"><img src="media/png/engine_up.png" />
@@ -44,57 +45,58 @@
        
 
 </header>
+<!-- grid lenjir -->
 
 <article class="grid">
 	
 <div class="cetiri kol">
-		<nav>
+	<nav>
 		<ul>
-		<li><a href="?q=home">Home[Ng1nP]</a></li>
-		<li><a href="?q=tips">Tips</a></li>
-		<li><a href="?q=kontakt">Kontakt</a></li>
-		<li><a href="?q=tweet">Tweet</a></li>
-		<li><a href="?q=rss">RSS</a></li>
+			<li><a href="?q=home">Home[Ng1nP]</a></li>
+			<li><a href="?q=tips">Tips</a></li>
+			<li><a href="?q=kontakt">Kontakt</a></li>
+			<li><a href="?q=tweet">Tweet</a></li>
+			<li><a href="?q=rss">RSS</a></li>
 		</ul>
-		</nav>
+	</nav>
 </div>
 
-	<?php
-	$str = $_GET['q']; 
-	# dozvoljene putanje
-	switch ($str) {
- 	   case 'tips':
-	   case 'kontakt':
- 	   case 'rss':
- 	   case 'tweet':
- 	       include 'lib/'.$str.'.php';
- 	       break;
- 	   default:
-               include 'lib/home.php';
+<?php
+$str = $_GET['q']; 
+# dozvoljene putanje
+switch ($str) {
+	case 'tips':
+	case 'kontakt':
+ 	case 'rss':
+ 	case 'tweet':
+ 	   include 'lib/'.$str.'.php';
+ 	break;
+ 	default:
+           include 'lib/home.php';
 	}
-	?>
-
-
+?>
 
 </article>
-	
+<!-- kraj grid lenjira -->
+
 <footer>	
 	<figure> 
 		
 		<a href="?q=rss"><img src="media/rss.png" alt="rss"></a>
 		<a href="https://twitter.com/webserveri"><img src="media/tw.png" alt="twitter"></a>
-		<a href="http://www.youtube.com/user/antistereotip"><img src="media/yt.png" alt="youtube"></a>
-		
+		<a href="http://www.youtube.com/user/antistereotip"><img src="media/yt.png" alt="youtube"></a>		
 	</figure>
-		<p id="f">
+	<p>
 		2013 @ antistereotip :: webserveri :: hostovao <br /> 
 		engine <b><a href="?q=home">/ng1np &reg;</a></b> [ng1np &reg;] 
 		by hightech
-		</p>
-		
-		
+	</p>				
 </footer>
+
 </section>
+<!-- kraj holder-a -->
+
 </body>
 </html>
+
 <?php if(extension_loaded('zlib')){ob_end_flush();}?>

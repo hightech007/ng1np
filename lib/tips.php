@@ -1,7 +1,7 @@
 <div class="dvanest kol">
-<h2>Tips</h2>
+  <h2>Tips</h2>
+  <p>
 
-<p>
 <?php
 $tip = array(
 1 => "http://www.unix.org/",
@@ -16,5 +16,6 @@ echo '<b>';
 echo "$tip[$rand]";
 echo '</b>';
 ?>
-</p>
+  
+  </p>
 </div>

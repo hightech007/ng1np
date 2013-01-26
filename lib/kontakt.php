@@ -6,6 +6,7 @@
 <b>e-mail adrese:</b><br />
 <a href="mailto: office@webserveri.info" >office@webserveri.info</a><br />
 <a href="mailto: antistereotip@webserveri.info" >antistereotip@webserveri.info</a><br />
+<a href="mailto: zdroid@webserveri.info" >zdroid@webserveri.info</a><br />
 <a href="mailto: office@antistereotip.info" >office@antistereotip.info</a><br />
 <a href="mailto: hightech@wideip.net" >hightech@wideip.net</a><br />
 </p>
