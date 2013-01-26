@@ -2,29 +2,35 @@ ng1np
 =====
 http://webserveri.info ---> pokreće ng1np
 
-ngin - up
+[ng1np ®]
+=========
+Ngin^UP(ng1np) je engine otvorenog koda, baziran na efikasnosti, vanstandardnom dizajnu, brzini, sigurnosti, 
+fleksibilnosti, jednostavnosti ...
 
-Ngin^UP(ng1np) je engine otvorenog koda, baziran na efikasnosti, vanstandardnom dizajnu, brzini, sigurnosti...
+Karakteristike
+==============
+1. "lightweight"
+2. Jednostavan
+3. U razvoju
+4. Brz
+5. Siguran
+6. Proširiv
+...
 
 Napomena
 ========
 1. etc (ng1np/etc/) folder je konfiguracija za linux sistem i servise ... uzivajte!!!
 2. nginx verzija (nginx version: nginx/0.7.67) Debian stable.
 
-
 Generalno
 =========
-
 Ng1np je objavljen pod PostgreSQL licencom. Pogledajte LICENSE za više informacija.
 
 Kontakt
 =======
-
 IRC: irc.freenode.net #webserveri
 
 Razvojni tim
 ============
-
 Milutin Gavrilović (office@webserveri.info) - FOUNDER
-
 Zlatan Vasović (zdroid@zdroidblog.info) - SUCCESSOR
