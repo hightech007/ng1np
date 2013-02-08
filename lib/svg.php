@@ -1,4 +1,5 @@
 <div class="dvanest kol">
+<h2>Scalable Vector Graphics</h2>
 <p>
 <svg version="1.1"
   width="120" height="120" 
