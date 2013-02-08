@@ -54,6 +54,7 @@
 		<ul>
 			<li><a href="?q=home">Home[Ng1nP]</a></li>
 			<li><a href="?q=tips">Tips</a></li>
+			<li><a href="?q=svg">SVG</a></li>
 			<li><a href="?q=kontakt">Kontakt</a></li>
 			<li><a href="?q=tweet">Tweet</a></li>
 			<li><a href="?q=rss">RSS</a></li>
@@ -66,6 +67,7 @@ $str = $_GET['q'];
 # dozvoljene putanje
 switch ($str) {
 	case 'tips':
+	case 'svg':
 	case 'kontakt':
  	case 'rss':
  	case 'tweet':
