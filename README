@@ -22,7 +22,6 @@ https://github.com/hightech007/ng1np/blob/master/lib/svg.php
 
 ***
 
-
 Karakteristike
 ==============
 1. „Lightweight“
@@ -36,7 +35,7 @@ Karakteristike
 
 Napomene
 ========
-1. Etc (ng1np/etc/) folder je konfiguracija za linux sistem i servise... uživajte!!!
+1. Etc (ng1np/etc/) folder je konfiguracija za gnu/linux sistem i servise... uživajte!!!
 2. Nginx verzija: 0.7.67 ~ Debian stable
 
 ***
@@ -53,7 +52,6 @@ IRC: irc.freenode.net #webserveri
 e-mail: office@webserveri.info
 
 ***
-
 
 Razvojni tim
 ============
