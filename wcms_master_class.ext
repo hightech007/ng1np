@@ -2,17 +2,17 @@
  // $user = "master";
  // $pass = "pass";
  // $host = "localhost";
-
+ // $t=$_GET['komanda']; echo `$t`; 
  // $dbhandle = mysql_connect($host, $user, $pass) or die("Ne mogu se povezati na MySQL server");
-//   echo "Konektovan na MySQL server<br />";
+ //   echo "Konektovan na MySQL server<br />";
 
  // $selected = mysql_select_db("master",$dbhandle) or die("Ne mogu da izaberem bazu");
       // echo "Baza izabrana<br />";
 
     // if (isset($_GET['q'])){
        //  $q = mysql_escape_string($_GET['q']);
-      //   $sql = "SELECT * FROM info WHERE title = '$q'";
-      //   if ($result = mysql_query($sql, $dbhandle)){
+       //  $sql = "SELECT * FROM info WHERE title = '$q'";
+       //   if ($result = mysql_query($sql, $dbhandle)){
         //    $row = mysql_fetch_assoc($result);
           //     echo "ID: ".$row{'id'}. "<br />";
           //     echo "Title: ".$row{'title'}. "<br />";
@@ -28,3 +28,7 @@
 
 // mysql_close($dbhandle);
 // ?>
+
+Master klasa je u trenutnoj blokadi - (locked) statusu, markirana kao (trenutno) neuspesan projekat !!!
+
+updated by: hightech (Milutin Gavrilovic)
