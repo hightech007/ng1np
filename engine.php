@@ -1,5 +1,5 @@
 <?php
-$db = new mysqli('localhost','user','sifra','baza');
+$db = new mysqli('localhost','user','pass','base');
 	if ($db -> connect_errno) { die('Connect Error: '.$db -> connect_errno); }
 	if (!mysqli_set_charset($db, "utf8")) {
 		printf("Ne mogu setovati karaktere na utf8: %s\n", mysqli_error($db));
@@ -8,7 +8,7 @@ $db = new mysqli('localhost','user','sifra','baza');
 			$rezultat = $db->query("SELECT * FROM info WHERE title = '$up'");
 			if ($rezultat->num_rows>0) {
 				while ($row = $rezultat -> fetch_object()) {
-					require_once 'setup/tpl/_home.php';
+					require_once 'setup/tpl/_engine.php';
 				}
 					} else { echo 'no result'; }
 	} 
