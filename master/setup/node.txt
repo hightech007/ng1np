@@ -1,0 +1,27 @@
+<h3>Ws1.n0d3</h3>
+
+<ul>
+  <li>
+    <a href="#" onclick="toggle('node1')">Item 1 (1)</a>
+    <ul id="node1" style="display:none">
+      <li>Sub-item 1</li>
+      <li>
+        <a href="#" onclick="toggle('node2')">Sub-item 2 (2)</a>
+        <ul id="node2" style="display:none">
+          <li>Sub-sub-item 1</li>
+          <li>Sub-sub-item 2</li>
+        </ul>
+      </li>
+      <li>Sub-item 3</li>
+    </ul>
+  </li>
+  <li>
+    <a href="#" onclick="toggle('node3')">ws1-node (3)</a>
+    <?php $dirs = array(); $d= getcwd(); $x= scandir($d); echo '<ul id="node3" style="display:none">'; foreach ($x as $dir) {
+	if (is_dir($dir) && $dir !='.' && $dir != '..' && $dir != 'setup' && $dir != 'sdev') {
+	array_push($dirs,$dir);echo '<li><a href="'.$dir.'">'.$dir.'</a></li>'; } 
+    } echo '</ul>'; ?>
+  </li>
+  <li>Item 3</li>
+</ul>
+
