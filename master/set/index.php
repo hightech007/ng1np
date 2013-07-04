@@ -1,9 +1,8 @@
 <?php 
 require_once 'set/master.class.php';
 
-
 $db = new DB();
-$db->konektuj('localhost', 'user', 'pass', 'base');
+$db->konektuj('localhost', 'webserve_master', 'master=true', 'webserve_master');
 
 $rezultat = $db->select("* FROM info LIMIT 0,5");
 
@@ -17,5 +16,4 @@ while  ($row = $rezultat->fetch_object() ) {
 //echo "</pre>";
 
 $db->kraj(); 
-
 ?>

@@ -1,5 +1,5 @@
 <?php
-$url = $_SERVER["SCRIPT_NAME"];
+$url = $_SERVER["SCRIPT_FILENAME"];
 $break = Explode('/', $url);
 $fajl = $break[count($break) - 1];
 $keshfajl = 'xcache/cache/kesh-'.substr_replace($fajl ,"",-4).'.html';
