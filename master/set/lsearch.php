@@ -4,10 +4,10 @@ $xmlDoc->load("../../../../sitemap.xml");
 
 $x=$xmlDoc->getElementsByTagName('url');
 
-//uzmi q kao parametar iz URL adrese
+// Uzmi `q` kao parametar iz URL adrese
 $q=$_GET["q"];
 
-//pogledaj da li je vrednost unosa veca od nule
+// Pogledaj da li je vrednost unosa veća od nule
 if (strlen($q)>0)
 {
 $hint="";
@@ -49,6 +49,6 @@ else
   $response=$hint;
   }
 
-//output 
+// Izlaz
 echo $response;
 ?>
