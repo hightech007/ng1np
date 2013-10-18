@@ -1,4 +1,5 @@
 <?php
+
 class DB {
   protected $db = 0;
   
@@ -10,14 +11,9 @@ class DB {
     return $this->db->query("SELECT ".$query);
   }
 
-//komentar: ostale metode ce se ovde implementirati
-
   function kraj() {
     $this->db->close();
   }
-} 
-
-
-
+}
 
 ?>
