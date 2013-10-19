@@ -21,8 +21,6 @@ hr {margin:0;width:100%;border:none;border-bottom:1px solid orangered;}
 .n0d3 {width:48%; padding:1%;float:left;margin:0;}
 .engine_up {width:48%; padding:1%;float:right;margin:0;}
 footer {width:96%; padding:2%;float:left;margin:0;}
-::selection {background-color:#FFCC00;  color:#333333; padding:5px;}
-::-moz-selection {background-color:#FFCC00; color:#333333; padding:5px;}
 @media screen and (max-width: 795px) {
       body {
         width:90%;
