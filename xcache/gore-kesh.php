@@ -1,13 +1,13 @@
 <?php
-$url = $_SERVER["SCRIPT_FILENAME"];
+$url = $_SERVER['SCRIPT_FILENAME'];
 $break = Explode('/', $url);
 $fajl = $break[count($break) - 1];
-$keshfajl = 'xcache/cache/kesh-'.substr_replace($fajl ,"",-4).'.html';
+$keshfajl = 'xcache/cache/kesh-'.substr_replace($fajl ,'',-4).'.html';
 $keshtime = 18000;
 
 // Servira iz keša ako je mlađe od $keshtime
 if (file_exists($keshfajl) && time() - $keshtime < filemtime($keshfajl)) {
-  echo "<!-- Keširana kopija, generisana ".date('H:i', filemtime($keshfajl))." -->\n";
+  echo '<!-- Keširana kopija, generisana '.date('H:i', filemtime($keshfajl)).' -->\n';
   include($keshfajl);
   exit;
 }
