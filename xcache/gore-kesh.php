@@ -13,8 +13,8 @@ if (file_exists($keshfajl) && time() - $keshtime < filemtime($keshfajl)) {
 }
 
 // Pokreće output buffer
-if (@ini_set('zlib.output_compression',TRUE) ||
-    @ini_set('zlib.output_compression_level',2)) 
+if (@ini_set('zlib.output_compression', TRUE) ||
+    @ini_set('zlib.output_compression_level', 2)) 
   {
     ob_start();
   } else {
