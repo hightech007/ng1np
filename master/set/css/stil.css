@@ -1,5 +1,5 @@
 * {margin: 0; padding: 0;}
-body { font:12pt Verdana; width: 100%; margin: 0 auto; background:#313131; color: #fff; outline:none;}
+body { font: 14px sans-serif; width: 100%; margin: 0 auto; background:#313131; color: #fff; outline:none;}
 article, section, header, footer, nav, audio, video {display:block;}
 a {color: #17f118;  text-decoration: none; }
 h3 { width: 98%; padding: 1%; float: left; background: #111; color: yellow; text-align: center;}
@@ -10,7 +10,7 @@ hr {margin:0;width:100%;border:none;border-bottom:1px solid orangered;}
 #dw:hover {background: #17f118;}
 .komande {width:98%; padding:1%;float:left;margin:0;}
 .komande ul {width: 96%; }
-.komande ul li {background: #111;  display: inline;   float: left; padding: 0.5%; margin: 2px;}
+.komande ul li {background: #111; display: inline; float: left; padding: 0.5%; margin: 2px;}
 .komande ul li a {color: #17f118; }
 
 .n0de ul {width: 100%; list-style-type: none; float: left; }
