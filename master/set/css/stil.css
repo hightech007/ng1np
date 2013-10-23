@@ -13,8 +13,8 @@ hr {margin: 0; width: 100%; border: none; border-bottom: 1px solid orangered;}
 .komande ul li {background: #111; display: inline; float: left; padding: 0.5%; margin: 2px;}
 .komande ul li a {color: #17f118;}
 
-.n0de ul {width: 100%; list-style-type: none; float: left;}
-.node ul ul {width: 100%; float: left; list-style-type: none;}
+.n0de ul {width: 100%; list-style: none; float: left;}
+.node ul ul {width: 100%; float: left; list-style: none;}
 .n0d3 ul li {list-style-type: none; text-align: center; border-bottom: 1px solid #17f118;}
 .n0d3 ul li {width: 98%; padding: 1%; background: #111;}
 
