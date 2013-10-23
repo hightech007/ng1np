@@ -1,38 +1,38 @@
 <?php
 $xmlDoc=new DOMDocument();
-$xmlDoc->load("../../../../sitemap.xml");
+$xmlDoc->load(''../../../../sitemap.xml'');
 
 $x=$xmlDoc->getElementsByTagName('url');
 
 // Uzmi `q` kao parametar iz URL adrese
 $q=$_GET["q"];
 
-// Pogledaj da li je vrednost unosa veća od nule
+// Proveri da li je vrednost unosa veća od nule
 if (strlen($q)>0)
 {
-$hint="";
+$hint='';
 for($i=0; $i<($x->length); $i++)
   {
   $y=$x->item($i)->getElementsByTagName('loc');
   $z=$x->item($i)->getElementsByTagName('loc');
   if ($y->item(0)->nodeType==1)
     {
-    //nadji linkove koji se poklapaju
+    // Nađi linkove koji se poklapaju
     if (stristr($y->item(0)->childNodes->item(0)->nodeValue,$q))
       {
-      if ($hint=="")
+      if ($hint=='')
         {
-        $hint="<a href='" . 
+        $hint='<a href="' . 
         $z->item(0)->childNodes->item(0)->nodeValue . 
-        "' target='__blank'>" . 
-        $y->item(0)->childNodes->item(0)->nodeValue . "</a>";
+        '" target="__blank">' . 
+        $y->item(0)->childNodes->item(0)->nodeValue . '</a>';
         }
       else
         {
-        $hint=$hint . "<br /><a href='" . 
+        $hint=$hint . '<br /><a href="'. 
         $z->item(0)->childNodes->item(0)->nodeValue . 
-        "''>" . 
-        $y->item(0)->childNodes->item(0)->nodeValue . "</a>";
+        '">' . 
+        $y->item(0)->childNodes->item(0)->nodeValue . '</a>';
         }
       }
     }
@@ -40,9 +40,9 @@ for($i=0; $i<($x->length); $i++)
 }
 
 
-if ($hint=="")
+if ($hint=='')
   {
-  $response="Nema predloga";
+  $response='Nema predloga';
   }
 else
   {
