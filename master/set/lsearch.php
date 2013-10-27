@@ -5,7 +5,7 @@ $xmlDoc->load('../../../../sitemap.xml');
 $x=$xmlDoc->getElementsByTagName('url');
 
 // Uzmi `q` kao parametar iz URL adrese
-$q=$_GET["q"];
+$q=$_GET['q'];
 
 // Proveri da li je vrednost unosa veća od nule
 if (strlen($q)>0)
