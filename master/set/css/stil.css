@@ -1,6 +1,6 @@
 * {margin: 0; padding: 0;}
 
-body {font: 14px/20px sans-serif; width: 100%; margin: 0 auto; background: #313131; color: #fff; outline: none;}
+body {font: 14px/20px sans-serif; width: 100%; margin: 0 auto; background: #313131; color: #fff;}
 article, section, header, footer, nav {display: block;}
 footer {width: 96%; padding: 2%; float: left; margin: 0;}
 
