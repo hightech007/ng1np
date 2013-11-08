@@ -29,7 +29,7 @@ for($i=0; $i<($x->length); $i++)
         }
       else
         {
-        $hint=$hint . '<br /><a href="'. 
+        $hint=$hint . '<br><a href="'. 
         $z->item(0)->childNodes->item(0)->nodeValue . 
         '">' . 
         $y->item(0)->childNodes->item(0)->nodeValue . '</a>';
