@@ -12,5 +12,3 @@ while  ($row = $rezultat->fetch_object() ) {
 }
 
 $db->kraj();
-
-?>
