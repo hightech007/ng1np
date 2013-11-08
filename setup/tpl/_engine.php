@@ -17,7 +17,7 @@
   <body>
     <header>
       <form>	
-        <input name="up" method="get" type="search"  class="" placeholder=" Type the command " autofocus>
+        <input name="up" method="get" type="search" placeholder=" Type the command " autofocus>
         <input type="submit" value="ENTER" class="button">
       </form>
     </header>
