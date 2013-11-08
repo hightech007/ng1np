@@ -15,6 +15,4 @@ if (!mysqli_set_charset($db, "utf8")) {
   } else {
     echo 'no result';
   }
-} 
-
-?>
+}
