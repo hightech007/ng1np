@@ -8,7 +8,7 @@ class DB {
   }
 
   function select($query) {
-    return $this->db->query("SELECT ".$query);
+    return $this->db->query('SELECT '.$query);
   }
 
   function kraj() {
