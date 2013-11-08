@@ -20,4 +20,3 @@ if (@ini_set('zlib.output_compression', TRUE) ||
   } else {
     ob_start('ob_gzhandler');
   }
-?>
