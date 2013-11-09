@@ -51,4 +51,3 @@ else
 
 // Izlaz
 echo $response;
-?>
