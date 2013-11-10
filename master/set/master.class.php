@@ -15,5 +15,3 @@ class DB {
     $this->db->close();
   }
 }
-
-?>
