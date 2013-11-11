@@ -29,7 +29,7 @@ h3 {width: 98%; padding: 1%; float: left; background: #111; color: yellow; text-
 .engine_up {width: 48%; padding: 1%; float: right; margin: 0;}
 
 @media screen and (max-width: 795px) {
-  body {width: 90%;}
+  body {width: 95%;}
   .content {width: 100%; float: left;}
   .content2 {width: 100%; float: left;}
   .n0d3 {width: 96%; padding: 2%; float: left; margin: 0;}
