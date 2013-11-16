@@ -33,9 +33,3 @@ xmlhttp.onreadystatechange=function() {if (xmlhttp.readyState==4 && xmlhttp.stat
 document.getElementById('livesearch').innerHTML=xmlhttp.responseText; 
 document.getElementById('livesearch').style.border='0px solid #414141';}} 
 xmlhttp.open('GET','set/lsearch.php?q='+str,true); xmlhttp.send(); }
-
-document.createElement('article');
-document.createElement('footer');
-document.createElement('header');
-document.createElement('hgroup');
-document.createElement('nav');
