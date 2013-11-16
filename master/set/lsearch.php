@@ -40,14 +40,12 @@ for($i=0; $i<($x->length); $i++)
 }
 
 
-if ($hint=='')
-  {
+if ($hint=='') {
   $response='Nema predloga';
-  }
-else
-  {
+}
+else {
   $response=$hint;
-  }
+}
 
 // Izlaz
 echo $response;
