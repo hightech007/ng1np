@@ -15,6 +15,6 @@ else {
     }
   }
   else {
-    echo 'no result';
+    echo 'No results';
   }
 }
