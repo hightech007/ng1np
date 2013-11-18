@@ -14,7 +14,8 @@ article,
 section,
 header,
 footer,
-nav {
+nav,
+legend {
   display: block;
 }
 footer {
