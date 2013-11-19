@@ -7,7 +7,7 @@ $db->konektuj('localhost', 'user', 'pass', 'base');
 $rezultat = $db->select('* FROM info LIMIT 0,5');
 
 
-while  ($row = $rezultat->fetch_object() ) {
+while  ($row = $rezultat->fetch_object()) {
   echo '<pre>';
   echo $row->title.' '.$row->url;
   echo '</pre>';
