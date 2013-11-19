@@ -2,10 +2,12 @@ function toggle(id) {
   'use strict';
   var e = document.getElementById(id);
 
-  if (e.style.display == '')
+  if (e.style.display == '') {
     e.style.display = 'none';
-  else
+  }
+  else {
     e.style.display = '';
+  }
 }
 
 function toggle2(id, link) {
@@ -15,7 +17,8 @@ function toggle2(id, link) {
   if (e.style.display == '') {
     e.style.display = 'none';
     link.innerHTML = 'dw';
-  } else {
+  }
+  else {
     e.style.display = '';
     link.innerHTML = 'up';
   }
