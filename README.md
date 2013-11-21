@@ -1,5 +1,3 @@
 # ng1np
 
-**engine - up**
-
-ng1np je moderni PHP engine.
+**ng1np** (engine - up) je moderni PHP engine.
