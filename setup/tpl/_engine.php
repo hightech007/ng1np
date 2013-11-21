@@ -17,8 +17,8 @@
   <body>
     <header>
       <form>	
-        <input name="up" method="get" type="search" placeholder="Type the command " autofocus>
-        <input type="submit" value="ENTER" class="button">
+        <input name="up" method="get" type="search" placeholder="Ukucaj komandu " autofocus>
+        <input type="submit" value="UNESI" class="button">
       </form>
     </header>
     <?php 
