@@ -12,11 +12,10 @@ if (file_exists($keshfajl) && time() - $keshtime < filemtime($keshfajl)) {
   exit;
 }
 
-// Pokreće output buffer
+// Pokreće izlazni buffer
 if (@ini_set('zlib.output_compression', TRUE) ||
-    @ini_set('zlib.output_compression_level', 2)) 
-  {
-    ob_start();
-  } else {
-    ob_start('ob_gzhandler');
-  }
+    @ini_set('zlib.output_compression_level', 2)) {
+  ob_start();
+} else {
+  ob_start('ob_gzhandler');
+}
