@@ -22,11 +22,11 @@
       </form>
     </header>
     <?php 
-      echo '<h2>'.$row->title.'</h2>'; 
-      echo '<p>'.$row->url.'</p>'; 
-      echo '<img src="'.$row->img.'"><br>'; 
-      echo $row->desc.'<br>'; 
-      echo $row->date.'<br>';
+      echo '<h2>' . $row->title . '</h2>'; 
+      echo '<p>' . $row->url . '</p>'; 
+      echo '<img src="' . $row->img . '"><br>'; 
+      echo $row->desc . '<br>'; 
+      echo $row->date . '<br>';
     ?>
   </body>
 </html>
