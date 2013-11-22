@@ -2,7 +2,7 @@ function toggle(id) {
   'use strict';
   var e = document.getElementById(id);
 
-  if (e.style.display == '') {
+  if (e.style.display === '') {
     e.style.display = 'none';
   }
   else {
@@ -14,7 +14,7 @@ function toggle2(id, link) {
   'use strict';
   var e = document.getElementById(id);
 
-  if (e.style.display == '') {
+  if (e.style.display === '') {
     e.style.display = 'none';
     link.innerHTML = 'dw';
   }
