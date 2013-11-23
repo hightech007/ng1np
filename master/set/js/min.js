@@ -1,5 +1,6 @@
 function toggle(id) {
   'use strict';
+
   var e = document.getElementById(id);
 
   if (e.style.display === '') {
@@ -12,6 +13,7 @@ function toggle(id) {
 
 function toggle2(id, link) {
   'use strict';
+
   var e = document.getElementById(id);
 
   if (e.style.display === '') {
@@ -26,6 +28,7 @@ function toggle2(id, link) {
 
 function getSelect(s) {
   'use strict';
+
   return s.options[s.selectedIndex].value;
 }
 
