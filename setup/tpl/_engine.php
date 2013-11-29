@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>ng1np &middot; engine up</title>
+    <meta name="author" content="Milutin Gavrilovic">
     <meta name="description" content="ng1np je engine otvorenog koda i uvek će biti.">
     <meta name="keywords" content="ng1np, engine-up, lightweight, php, psp, development">
     <meta name="robots" content="index,follow"> 
